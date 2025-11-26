@@ -56,3 +56,20 @@ public class StringTemplateDemo {
         java21Version("Gayathri", 80, 90);
     }
 }
+
+
+
+
+// PS E:\Vs workspace> javac --enable-preview --release 21 StringTemplateDemo.java
+// >>                                         
+// >> 
+// Note: StringTemplateDemo.java uses preview features of Java SE 21.
+// Note: Recompile with -Xlint:preview for details.
+// PS E:\Vs workspace> java --enable-preview StringTemplateDemo                   
+// ---- Before Java 21 ----                   
+// Student: Gayathri
+// Total Marks: 170
+// Average: 85.0
+// ---- Java 21 (Preview Feature) ----
+// ---- STR Output ----
+// Student: Gayathri  Total Marks: 170  Average: 85.0
